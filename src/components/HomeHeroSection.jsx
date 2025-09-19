@@ -13,7 +13,7 @@ function HomeHeroSection() {
             <p className="text-lg max-w-xl mx-auto mb-8 text-gray-600">
                 Welcome to CarbonSetu — your gateway to secure, transparent, and decentralized complaint management. Our platform ensures your voice is heard, your data is protected, and every concern is tracked until resolution. Join us in building a fair and accountable system for all.
             </p>
-            <button onClick={handleLogin} className="px-6 py-3 text-base bg-green-600 text-white rounded hover:bg-green-700 transition">
+            <button onClick={handleLogin} className="px-10 py-3 text-base cursor-pointer font-bold bg-green-600 text-white rounded-full hover:bg-green-700 transition">
                 Login
             </button>
         </section>
