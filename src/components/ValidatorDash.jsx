@@ -4,6 +4,7 @@ import RecentActivity from './RecentActivity'
 import WelcomeBar from './WelcomeBar'
 import Projects from './Projects'
 import ActionPanel from './ActionPanel'
+import Footer from './Footer'
 function Validator() {
   return (
     <div className="w-full bg-gray-50 min-h-screen">
@@ -20,6 +21,7 @@ function Validator() {
           <RecentActivity />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

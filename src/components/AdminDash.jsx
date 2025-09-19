@@ -4,7 +4,7 @@ import WelcomeBar from './WelcomeBar'
 import PendingApproval from './PendingApproval'
 import ProjectApproval from './ProjectApproval'
 import AdminAction from './AdminAction'
-
+import Footer from './Footer'
 function AdminDash() {
   return (
     <>
@@ -23,6 +23,7 @@ function AdminDash() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
