@@ -5,7 +5,11 @@ import Admin from './components/AdminDash.jsx';
 import Validator from './components/ValidatorDash.jsx';
 import Signup from './components/Signup.jsx';
 import UploadToPinata from './utils/uploadPinata.js';
+import { useEffect } from 'react';
 function MainRoutes() {
+  useEffect(() => {
+    document.title = "CarbonSetu";
+  }, []);
   return (
     <Routes>
       <Route path="/" element={<App />} />
