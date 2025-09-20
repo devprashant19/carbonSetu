@@ -11,7 +11,8 @@ function HomeHeroSection() {
                 CarbonSetu
             </h1>
             <p className="text-lg max-w-xl mx-auto mb-8 text-gray-600">
-                Welcome to CarbonSetu — Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi accusantium? Cum blanditiis nobis consectetur voluptate cupiditate facere, fugiat non eligendi minus laborum est, sed harum nulla id aliquam aut suscipit quam eaque facilis vitae. Ut nostrum obcaecati quisquam.</p>
+                Welcome to CarbonSETU — India’s decentralized bridge to transparent, trusted, and verifiable carbon credits.
+            </p>
             <button onClick={handleLogin} className="px-10 py-3 text-base cursor-pointer font-bold bg-green-600 text-white rounded-full hover:bg-green-700 transition">
                 Login
             </button>
