@@ -9,10 +9,14 @@ const RegistryProjects = () => {
   const [loading, setLoading] = useState(true);
     const { id } = useParams();
   useEffect(() => {
-    const sampleData = projectsData.find(p => p.id.toString() === id);
-    setProjectData(sampleData);
+    if (!id) {
     setLoading(false);
-  }, []);
+    return;
+  }
+  const sampleData = projectsData.find(p => p.id.toString() === id);
+  setProjectData(sampleData);
+  setLoading(false);
+}, [id]);
 
   const tabs = [
     { id: 'DETAILS', label: 'DETAILS', count: null },
