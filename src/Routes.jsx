@@ -5,6 +5,8 @@ import Admin from './components/AdminDash.jsx';
 import Validator from './components/ValidatorDash.jsx';
 import Signup from './components/Signup.jsx';
 import UploadToPinata from './utils/uploadPinata.js';
+import Registry from './components/Registry.jsx';
+import RegistryProjects from './components/RegistryProjects.jsx';
 import { useEffect } from 'react';
 function MainRoutes() {
   useEffect(() => {
@@ -18,6 +20,8 @@ function MainRoutes() {
       <Route path="/validator" element={<Validator />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/upload" element={<UploadToPinata />} />
+      <Route path="/registry" element={<Registry />} />
+        <Route path="/registry/projects/:id" element={<RegistryProjects />} />
     </Routes>
   );
 }
